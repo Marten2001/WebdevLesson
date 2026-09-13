@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My First Page</title>
+    </head>
+    <body>
+        <!--This is text in the main body of my website-->
+        <h1>Hello, World!</h1>
+        <h2 id="section2">Sectio Two</h2>
+        <p style="color: purple;">This is where visible content goes.</p>
+        <nav>Here are the links</nav>
+        <a href="https://www.nintendo.com/en-gb/" target="_blank">Nintendo Site</a><br>
+        <a href="marten.laasi@bigcreative.education">Email me here</a><br>
+        <a href="#section2">Jump to section two</a><br>
+        <div class="image">
+            <img src="images.jpg" alt="link image" width="300" height="300">
+        </div>
+        <div id="main-lists">
+            <p>This is a link</p>
+            <ol>
+                <li>Boil kettle</li>
+                <li>Add Tea bag</li>
+                <ol>
+                    <li>Pour the water</li>
+                    <li>add milk</li>
+                </ol>
+         </ol>
+            <ul>
+                <li>Tea</li>
+                <li>Coffee</li>
+                <li>Juice</li>
+         </ul>
+        </div>
+        <table>
+            <thead>
+                <tr><th>Day</th><th>Weather</th></tr>
+            </thead>
+            <tbody>
+                <tr ><td colspan="2">Monday</td><td>Sunny</td></tr>
+                <tr><td colspan="2">Tuesday</td><td>Rainy</td></tr>
+            </tbody>
+        </table>
+        <form action="/submit-page" method="post">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="msg" row="4" cols="40"></textarea>
+            <input type="radio" id="email" name="contact" value="email">
+            <label for="email">Email</label>
+            <input type="radio" id="phone" name="contact" value="phone">
+            <label for="phone">Phone</label><br>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe to newsletter</label><br>
+            <select id="colour" name="colour">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+            </select>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </form><br>
+        <footer>Marten Laasi</footer>
+</html>
