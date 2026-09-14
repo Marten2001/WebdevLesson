@@ -1,0 +1,77 @@
+/*this is a comment*/
+p {
+    color: red;
+    text-align: center;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#main-title {
+    font-size: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+    width: 350px;
+    height: 150
+}
+
+img {
+    margin: 10px;
+}
+
+a {
+    margin: 5px;
+    color: green;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: red;
+}
+
+li {
+    margin: 10px;
+    list-style-type: square;
+    line-height: 1.8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.container {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
